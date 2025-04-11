@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Online Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .game-container {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .game-container iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        .game-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Game Online Hub</h1>
+</header>
+
+<main>
+    <!-- Game 1 -->
+    <div class="game-container">
+        <div class="game-title">Game 1</div>
+        <iframe src="https://www.crazygames.com/game/tetris" frameborder="0"></iframe>
+    </div>
+
+    <!-- Game 2 -->
+    <div class="game-container">
+        <div class="game-title">Game 2</div>
+        <iframe src="https://www.crazygames.com/game/agar-io" frameborder="0"></iframe>
+    </div>
+
+    <!-- Game 3 -->
+    <div class="game-container">
+        <div class="game-title">Game 3</div>
+        <iframe src="https://www.crazygames.com/game/slitherio" frameborder="0"></iframe>
+    </div>
+
+    <!-- Game 4 -->
+    <div class="game-container">
+        <div class="game-title">Game 4</div>
+        <iframe src="https://www.crazygames.com/game/2048" frameborder="0"></iframe>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Game Online Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
